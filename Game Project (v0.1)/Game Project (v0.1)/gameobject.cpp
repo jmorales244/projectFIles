@@ -14,14 +14,14 @@ void GameObject::Update()
 	xpos++;
 	ypos++;
 	//std::cout << xpos << " " << ypos << std::endl;
-
+	
 
 	//resolution
 	srcRect.h = 64;
 	srcRect.w = 64;
 	//box size 
 	srcRect.x = 32;
-	srcRect.y = 40;
+	srcRect.y = 32;
 
 	destRect.x = xpos;
 	destRect.y = ypos;
@@ -34,4 +34,3 @@ void GameObject::Render()
 {
 	SDL_RenderCopy(Game::renderer, objTexture, &srcRect, &destRect);
 }
-

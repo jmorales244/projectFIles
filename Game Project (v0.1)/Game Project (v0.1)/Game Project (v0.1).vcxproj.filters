@@ -16,6 +16,12 @@
     <Filter Include="assets">
       <UniqueIdentifier>{c24f609d-510f-4835-9315-b52da5ea1d4a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ECS">
+      <UniqueIdentifier>{e32c8122-8a8c-4756-9beb-798e0c7469c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound Files">
+      <UniqueIdentifier>{12fb59e7-305e-4a7b-afd1-9bc520faf92a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -27,10 +33,22 @@
     <ClCompile Include="texturemanager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameobject.cpp">
+    <ClCompile Include="map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="map.cpp">
+    <ClCompile Include="collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shooting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,23 +59,50 @@
     <ClInclude Include="TextureManager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GameObject.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Map.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ECS.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\ECS</Filter>
     </ClInclude>
     <ClInclude Include="Components.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\ECS</Filter>
     </ClInclude>
     <ClInclude Include="SpriteComponent.hpp">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.hpp">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PositionComponent.hpp">
+    <ClInclude Include="Vector2D.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderComponent.hpp">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardController.hpp">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="TileComponent.hpp">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.hpp">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooting.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gun.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.cpp">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -67,14 +112,45 @@
     <Image Include="TIE_Fighter.png">
       <Filter>assets</Filter>
     </Image>
-    <Image Include="asteroid.png">
-      <Filter>assets</Filter>
-    </Image>
     <Image Include="back_texture1(128).png">
       <Filter>assets</Filter>
     </Image>
-    <Image Include="asteroid(128).png">
+    <Image Include="asteroid_small.png">
       <Filter>assets</Filter>
     </Image>
+    <Image Include="sprite_test.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="asteroid.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="x-wing_idle-sheet.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="x-wing_anim.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\player_anims.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="border_tile_left.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="border_tile_right.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="player_frames.png">
+      <Filter>assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="p32x32.map">
+      <Filter>assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="KX9_laser_cannon.wav">
+      <Filter>Sound Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>

@@ -11,11 +11,11 @@ public:
 
 
 private:
-
+	
 	int xpos;
 	int ypos;
 
-	SDL_Texture* objTexture;
+	SDL_Texture* objTexture; 
 	SDL_Rect srcRect, destRect;
 
 };
