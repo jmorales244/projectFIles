@@ -98,12 +98,6 @@
     <ClInclude Include="gun.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AudioManager.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="audio.cpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="x-wing_idle.png">

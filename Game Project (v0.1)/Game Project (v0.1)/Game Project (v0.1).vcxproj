@@ -154,10 +154,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.hpp" />
-    <ClInclude Include="AudioManager.hpp" />
     <ClInclude Include="ColliderComponent.hpp" />
     <ClInclude Include="gun.hpp" />
-    <ClInclude Include="audio.cpp" />
     <ClInclude Include="KeyboardController.hpp" />
     <ClInclude Include="Shooting.hpp" />
     <ClInclude Include="TileComponent.hpp" />
